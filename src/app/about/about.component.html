@@ -1,0 +1,15 @@
+<h3>Dynamic Columns</h3>
+<div id="top" class="container-fluid">
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="header"> List</div>
+            <div class="container-fluid">
+                <div class="col-md-12">
+                  <p-dataTable [value]="cars">
+                      <p-column *ngFor="let col of cols" [field]="col.field" [header]="col.header"></p-column>
+                  </p-dataTable>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,175 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+h4{
+  color: #0078c0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.header{
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding: 5px 26px;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+.subrow ul,h6 {
+  color: #0078c0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 10px 26px;
+}
+h5,.h5 {
+  color: #0078c0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  padding: 5px 26px;
+}
+body {
+    margin: 2em;
+    background: url('img/default-3-0-bg-long-pacific.jpg');
+}
+
+.network {
+  content: url('img/network.png');
+}
+
+.firewall {
+  content: url('img/firewall.png');
+}
+
+.loadbalancer {
+  content: url('img/loadbalancer.png');
+}
+.me {
+  content: url('img/me.png');
+}
+
+.jumbotron {
+  padding-top:10px;
+  padding:10px;
+  margin-top:50px;
+  margin-bottom:10px;
+  background-color: white;
+  min-height: 400px;
+}
+
+.navbar-brand {
+
+}
+[class*="col-md-3"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+.subrow {
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  height: 100%;
+  min-height: 600px;
+  margin-top: 10px
+}
+
+.subrow p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+
+}
+
+.header-image {
+  content: url('img/logo.png');
+  margin-right: 10px;
+  float: left;
+}
+
+.datatable-header {
+  background-color: #428bca;
+  color: #fff;
+}
+
+.ngx-datatable .datatable-row-center {
+  border-top: 1px solid rgba(86, 61, 124, .2);
+}
+
+.ngx-datatable.material .datatable-header .datatable-header-cell {
+  color: #fff!important;
+}
+
+.bottom {
+  float: right!important;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.info-icon {
+  background-image: url("img/Icon-MenuInfo.png");
+}
+.info-icon:hover {
+   background-image: url("img/Icon-MenuInfoHover.png");
+ }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(65, 65, 65, 0.75);
+  z-index: 1;
+  -webkit-transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+  will-change: opacity, visibility; }
+.overlay.ng-enter {
+  opacity: 0; }
+.overlay.ng-enter.ng-enter-active {
+  opacity: 1;
+  visibility: visible; }
+.overlay.ng-leave {
+  -webkit-transition: opacity 100ms ease-in-out, visibility 100ms ease-in-out;
+  transition: opacity 100ms ease-in-out, visibility 100ms ease-in-out;
+  opacity: 1;
+  visibility: visible; }
+.overlay.ng-leave.ng-leave-active {
+  opacity: 0; }
+
+.three-bounce-spinner {
+  margin: 200px auto !important;
+  width: 200px !important;
+}
+
+.three-bounce-spinner  > div {
+  width:30px !important;
+  height:30px !important;
+}
+
+.error-uuid{
+  color: #0078c0;
+}
+
